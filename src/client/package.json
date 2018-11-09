@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "start": "serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.5"
+  },
+  "devDependencies": {
+    "serve": "^10.0.2"
+  }
 }
